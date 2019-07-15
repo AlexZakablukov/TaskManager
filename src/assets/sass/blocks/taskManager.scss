@@ -1,0 +1,46 @@
+#taskManager{
+	font-size: 2rem;
+	margin-top: 100px;
+}
+#addForm{
+	display: block;
+	width: 100%;
+	margin: 0 auto 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#addInput{
+	width: 100%;
+	padding: 5px 10px;
+	height: 40px;
+}
+#addButton{
+	height: 40px;
+	width: 40px;
+}
+#taskList{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.taskItem{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid grey;
+}
+.taskIndex, .taskTitle{
+	border-right: 1px solid grey;
+	padding: 10px;
+}
+.taskTitle{
+	width: 100%;
+	text-align: center;
+}
+.taskControllers{
+	display: flex;
+	padding: 10px;
+}
+.editButton{
+	margin-right: 10px;
+}

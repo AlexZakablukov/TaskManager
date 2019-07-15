@@ -11,8 +11,37 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-8 offset-2">
-				<div id="TaskManager">
-					<i class="fas fa-pencil-alt"></i>
+				<div id="taskManager">
+					<form id="addForm">
+					    <input type="text" id="addInput" placeholder="Enter title for new task">
+					  	<button id="addButton"><i class="fas fa-plus"></i></button>
+					</form>
+					<ul id="taskList">
+						<li class="taskItem">
+							<span class="taskIndex">1</span>
+							<span class="taskTitle">Task1</span>
+							<div class="taskControllers">
+								<button class="editButton"><i class="fas fa-pencil-alt"></i></button>
+								<button class="deleteButton"><i class="fas fa-minus"></i></button>
+							</div>
+						</li>
+						<li class="taskItem">
+							<span class="taskIndex">2</span>
+							<span class="taskTitle">Task2</span>
+							<div class="taskControllers">
+								<button class="editButton"><i class="fas fa-pencil-alt"></i></button>
+								<button class="deleteButton"><i class="fas fa-minus"></i></button>
+							</div>
+						</li>
+						<li class="taskItem">
+							<span class="taskIndex">3</span>
+							<span class="taskTitle">Task3</span>
+							<div class="taskControllers">
+								<button class="editButton"><i class="fas fa-pencil-alt"></i></button>
+								<button class="deleteButton"><i class="fas fa-minus"></i></button>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

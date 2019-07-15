@@ -5767,6 +5767,74 @@ a.text-dark:hover, a.text-dark:focus {
     color: #6c757d;
 }
 
+#taskManager {
+    font-size: 2rem;
+    margin-top: 100px;
+}
+
+#addForm {
+    display: block;
+    width: 100%;
+    margin: 0 auto 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#addInput {
+    width: 100%;
+    padding: 5px 10px;
+    height: 40px;
+}
+
+#addButton {
+    height: 40px;
+    width: 40px;
+}
+
+#taskList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.taskItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.taskIndex, .taskTitle {
+    border-right: 1px solid grey;
+    padding: 10px;
+}
+
+.taskTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.taskControllers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+}
+
+.editButton {
+    margin-right: 10px;
+}
+
 html, body {
     min-width: 320px;
     overflow-x: hidden;
