@@ -7,6 +7,10 @@
 
 
 html, body {
-    height: 100%;
-    font-size: 15px;
+    min-width: 320px;
+    overflow-x: hidden;
+    font-size: 10px;
+    font-family: $main-text;
+    color: $text-color;
 }
+
